@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
-const hello = ["hello ", "world"]
+const hello = ["hello ", "world" , " i succssedd"]
 const number1 = 5;
 const number2 =6;
-const string = “I love React!”;
+const string = "I love React";
 function App() {
   return (
     <div>
