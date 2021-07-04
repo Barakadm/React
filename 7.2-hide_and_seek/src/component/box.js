@@ -3,7 +3,7 @@ import React from "react";
 
 
 const Cards = (props) => {
-return ( <div> Box</div>
+return ( <div>{props.type}</div>
 
 
 

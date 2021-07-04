@@ -5,8 +5,8 @@ import React from "react";
 // import faker from "faker";
 
 
-const commentdetail = ()=>{
-return ( <div>hey</div>
+const Box = (props)=>{
+return ( <div>{props.mynum}</div>
 //  כאן נעתיק את הקוד אותו אנו רוצים 
 );
 
@@ -14,4 +14,4 @@ return ( <div>hey</div>
 
 
 // ניצור שורת ייצוא שנוכל להשתמש 
-export default commentdetail
+export default Box

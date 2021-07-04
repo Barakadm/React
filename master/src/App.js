@@ -1,28 +1,16 @@
-// ייבוא של ספריות של ריאקט ודום
 
-import React from "react";
-import "./Style.css";
-import Spinner from "./component/Spinner";
+import './App.css';
+import Button from './Button'
+function App() {
 
-class App extends React.Component {
-  state = { spinner: undefined };
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ spinner: "off" });
-    }, 4000);
-  }
-  componentDidUpdate() {}
-
-  render() {
-    return (
-      <div className={this.state.spinner}>
-        <Spinner />
-      </div>
-    );
-  }
+  return (
+    
+    <div className="box0">
+     <Button importance ="not important"/>
+     <Button importance ="very important" />
+    </div>
+  );
 }
 
 export default App;
-
-
